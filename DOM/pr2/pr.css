@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 4px;
+    background-color: aquamarine;
+    
+}

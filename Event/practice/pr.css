@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+body{
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+p{
+    padding-top: 20px;
+}
+.btn{
+    border:2px solid red ;
+}
