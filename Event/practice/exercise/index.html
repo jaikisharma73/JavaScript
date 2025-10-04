@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Name Display</title>
+</head>
+<body>
+
+  <!-- Input box for user name -->
+  <input type="text" id="nameInput" placeholder="enter your name">
+
+  <!-- Heading to show the name -->
+  <h2 id="displayName"></h2>
+
+  <script>
+    // Get input and heading elements
+    const input = document.getElementById("nameInput");
+    const heading = document.getElementById("displayName");
+
+    // Add event listener to input box
+    input.addEventListener("input", function() {
+      // Allow only letters (a-z, A-Z) and spaces
+      let filtered = this.value.replace(/[^a-zA-Z\s]/g, "");
+      this.value = filtered; // Remove invalid characters
+      heading.textContent = filtered; // Show in heading
+    });
+  </script>
+
+</body>
+</html>
