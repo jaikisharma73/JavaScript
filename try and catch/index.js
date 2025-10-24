@@ -38,10 +38,10 @@
 // Set interval...........................
 
 
-// console.log("HI there");
-// setInterval(()=>{
-//     console.log("Jaiki Sharma");
-// },2000);
+console.log("HI there");
+setInterval(()=>{
+    console.log("Jaiki Sharma");
+},2000);
 
 
 

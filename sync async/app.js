@@ -1,4 +1,4 @@
-// let randomChoose = Math.random()*3;
+// let randomChoose = Math.floor(Math.random()*10)+1;
 // console.log(randomChoose);
 
 
@@ -35,26 +35,26 @@
 //     console.log("Promise fullfilled");
 // });
 
-function asyncFunc(){
-    return new Promise((resolve , reject) =>{
-        setTimeout(()=>{
-            console.log("Data 1");
-            resolve("Success");
-        },4000);
-    });
-}
-function asyncFunc2(){
-    return new Promise((resolve , reject) =>{
-        setTimeout(()=>{
-            console.log("Data 2");
-            resolve("Success");
-        },10000);
-    });
-}
-console.log("Fetching Data 1....");
-asyncFunc().then((res)=>{
-    console.log("Fetching Data 2....");
-asyncFunc2().then((res) => {
-        console.log("Success")
-    });
-})
+// function asyncFunc(){
+//     return new Promise((resolve , reject) =>{
+//         setTimeout(()=>{
+//             console.log("Data 1");
+//             resolve("Success");
+//         },4000);
+//     });
+// }
+// function asyncFunc2(){
+//     return new Promise((resolve , reject) =>{
+//         setTimeout(()=>{
+//             console.log("Data 2");
+//             resolve("Success");
+//         },10000);
+//     });
+// }
+// console.log("Fetching Data 1....");
+// asyncFunc().then((res)=>{
+//     console.log("Fetching Data 2....");
+// asyncFunc2().then((res) => {
+//         console.log("Success")
+//     });
+// })
